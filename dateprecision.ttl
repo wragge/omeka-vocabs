@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix dateprecision: <http://purl.archive.org/omeka-vocabs/dateprecision> .
+@prefix dateprecision: <http://purl.archive.org/omeka-vocabs/dateprecision#> .
 
 <http://purl.archive.org/omeka-vocabs/dateprecision> a owl:Ontology ;
     dcterms:title "Date Precision Indicator" ;

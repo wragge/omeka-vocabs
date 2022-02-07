@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix dateprecision: <http://purl.archive.org/omeka-vocabs/dateprecision> .
+
+<http://purl.archive.org/omeka-vocabs/dateprecision> a owl:Ontology ;
+    dcterms:title "Date Precision Indicator" ;
+    dcterms:description "Indicate how precisely a date should be interpreted. Based on schema.org date properties." .
+
+dateprecision:birthDate a rdf:Property ;
+    rdfs:label "birthDatePrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+dateprecision:dateCreatedPrecision a rdf:Property ;
+    rdfs:label "dateCreatedPrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+dateprecision:dateModifiedPrecision a rdf:Property ;
+    rdfs:label "dateModifiedPrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+dateprecision:datePublished a rdf:Property ;
+    rdfs:label "datePublishedPrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+dateprecision:deathDate a rdf:Property ;
+    rdfs:label "deathDatePrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+dateprecision:dissolutionDate a rdf:Property ;
+    rdfs:label "dissolutionDatePrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+dateprecision:endDatePrecision a rdf:Property ;
+    rdfs:label "endDatePrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+dateprecision:foundingDate a rdf:Property ;
+    rdfs:label "foundingDatePrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+dateprecision:productionDatePrecision a rdf:Property ;
+    rdfs:label "productionDatePrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+dateprecision:startDatePrecision a rdf:Property ;
+    rdfs:label "startDatePrecision" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .

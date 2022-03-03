@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix aas: <http://purl.archive.org/omeka-vocabs/archives-access-status> .
+@prefix aas: <http://purl.archive.org/omeka-vocabs/archives-access-status#> .
 
 <http://purl.archive.org/omeka-vocabs/archives-access-status> a owl:Ontology ;
     dcterms:title "Archives Access Status" ;

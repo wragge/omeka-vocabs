@@ -30,6 +30,11 @@ sdq:datePublishedQualifier a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+sdq:dateSentQualifier a rdf:Property ;
+    rdfs:label "dateSentQualifier" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 sdq:deathDateQualifier a rdf:Property ;
     rdfs:label "deathDateQualifier" ;
     rdfs:domain o:Resource ;
